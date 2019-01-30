@@ -2,6 +2,11 @@
   background-color: black;
   border-style: solid;
   border-color: white;
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 15%;
+  
 
 }
 
@@ -35,13 +40,14 @@
 #left{
   position: absolute;
   left: 200px;
-  right: 300px;
+  right: 35%;
 }
 
 #right{
   position: absolute;
   left: 75%;
   top: 10%;
+  
 }
 
 .footer{
@@ -50,4 +56,13 @@
   border-style: solid;
   border-color: black;
   height: 100px; 
+}
+
+.h2{
+  font-size: 18px;
+}
+
+#last-text{
+  font-size: 12px;
+  
 }
